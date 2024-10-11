@@ -3,9 +3,8 @@
 name: Continuous Training
 
 on:
-  push:
-    branches:
-      - main
+    push:
+      branches: [ "main" ]
 
 jobs:
   build:
