@@ -3,7 +3,7 @@
 name: Continuous Training
 
 on:
-  pull_request:
+  push:
     branches:
       - main
 
